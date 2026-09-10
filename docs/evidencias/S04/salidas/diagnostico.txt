@@ -1,0 +1,150 @@
+================================================================================
+SI-886 PLANEAMIENTO ESTRATÉGICO DE TI — TALLER DE LABORATORIO 04
+DIAGNÓSTICO FORMAL DE MISIÓN Y VISIÓN ORGANIZACIONAL
+================================================================================
+Empresa Analizada : Grupo CISCLON / CISCLOUD
+Actividad / Sector: Holding tecnológico-industrial (MSP TI, Cloud VPS, Ciberseguridad, ERP Odoo, Automatización CATESO)
+Ámbito y Sede     : Perú (cobertura nacional con sede en Tacna y Lima)
+Fecha de Análisis : 10 de septiembre de 2026
+--------------------------------------------------------------------------------
+1. DECLARACIONES DE FACTO REGISTRADAS
+--------------------------------------------------------------------------------
+[Misión Vigente]:
+"Concentrar y articular servicios tecnológicos recurrentes (soporte TI gestionado 24/7 regulado por SLAs, ciberseguridad en endpoints, infraestructura en la nube y respaldos automatizados) junto con la automatización industrial bajo un interlocutor único responsable, garantizando que las operaciones de las empresas clientes no sufran paradas técnicas y brindando visibilidad y control absoluto de la infraestructura mediante plataformas centralizadas y sistemas ERP Odoo."
+
+[Visión Vigente]:
+"Consolidarse como el holding tecnológico-industrial peruano de referencia que combina la ingeniería industrial tradicional con tecnologías de información avanzadas bajo una sola firma, liderando la transformación digital real de las organizaciones mediante roadmaps de madurez tecnológica a 18 meses orientados a resultados comerciales medibles, y extendiendo una cobertura híbrida nacional de soporte que brinde la misma velocidad de respuesta y monitoreo proactivo tanto en Tacna como en Lima y Puno."
+
+--------------------------------------------------------------------------------
+2. EVALUACIÓN DE LOS CINCO COMPONENTES DE LA MISIÓN
+--------------------------------------------------------------------------------
+[C1] Qué hacemos (¿Cuál es la actividad esencial?): PRESENTE
+     Fragmento : «Concentrar y articular servicios tecnológicos recurrentes (soporte TI gestionado 24/7 regulado por SLAs, ciberseguridad en endpoints, infraestructura en la nube y respaldos automatizados) junto con la automatización industrial bajo un interlocutor único responsable»
+     Evaluación: Cumple. Define claramente la prestación técnica y la integración industrial-TI.
+[C2] Para quién (¿Quién es el destinatario?): PRESENTE
+     Fragmento : «las empresas clientes»
+     Evaluación: Débil / Parcialmente cumplido. El término 'empresas clientes' es genérico; omite tipología (medianas/grandes empresas industriales y corporativas).
+[C3] Cómo nos distingue (¿Qué la distingue en el cómo?): PRESENTE
+     Fragmento : «bajo un interlocutor único responsable [...] mediante plataformas centralizadas y sistemas ERP Odoo»
+     Evaluación: Cumple. La integración holding (TI + CATESO industrial) y la centralización en Odoo constituyen su diferenciación técnica.
+[C4] Para qué (¿Qué valor genera?): PRESENTE
+     Fragmento : «garantizando que las operaciones de las empresas clientes no sufran paradas técnicas y brindando visibilidad y control absoluto de la infraestructura»
+     Evaluación: Cumple. Señala continuidad de negocio y resiliencia operativa frente a fallas.
+[C5] Con qué compromiso (¿Qué principios lo rigen?): AUSENTE
+     Fragmento : [Ausente]
+     Evaluación: No cumple. Menciona SLAs técnicos pero no explicita principios de integridad, confidencialidad, ética o sostenibilidad corporativa.
+
+Resumen: 4 de 5 componentes formalmente identificados.
+--------------------------------------------------------------------------------
+3. IDENTIFICACIÓN DE DEFECTOS TÉCNICOS EN LA MISIÓN
+--------------------------------------------------------------------------------
+[D1] Ambigüedad en el límite del alcance del negocio: SEÑALADO
+     Prueba de evidencia: Al integrar simultáneamente automatización industrial de planta y mesa de ayuda de microinformática en la misma declaración sin precisar los linderos, se genera sobreextensión operativa.
+[D2] Indefinición del destinatario y segmentación de mercado: SEÑALADO
+     Prueba de evidencia: El enunciado se refiere a 'empresas clientes' sin calificar si atiende a microempresas, corporaciones mineras o banca comercial en Tacna y el sur del país.
+[D3] Contaminación teleológica con elementos de visión: NO PRESENTE
+[D4] Vulnerabilidad a la sustitución por comoditización: SEÑALADO
+     Prueba de evidencia: Si se suprime la referencia a Odoo y CATESO, los términos 'soporte 24/7, cloud y ciberseguridad' son ofrecidos textualmente por decenas de competidores MSP en Perú.
+[D5] Miopía tecnológica e hipertrofia procedimental: SEÑALADO
+     Prueba de evidencia: Enumera herramientas operativas de software ('sistemas ERP Odoo, endpoints, SLAs') dentro de la razón de ser, cuando la tecnología es un medio y no el fin institucional.
+[D6] Retórica inflada o adjetivación no operativa: NO PRESENTE
+[D7] Omisión de principios y valores rectores: SEÑALADO
+     Prueba de evidencia: No declara valores fundamentales vinculados a la custodia de datos, la confidencialidad de la información corporativa ni la probidad profesional.
+
+Total Defectos Señalados: 5 de 7 posibles.
+--------------------------------------------------------------------------------
+4. RESULTADOS DE LAS TRES PRUEBAS DE CALIDAD
+--------------------------------------------------------------------------------
+4.1. Prueba de Sustitución con Competidores Reales:
+   - Optical Networks (ON) / WIN Empresas (Operador peruano de telecomunicaciones, cloud y servicios gestionados de ciberseguridad corporativa.) -> FALLA (Sobrevive a la sustitución)
+     Evidencia: Si se reemplaza 'Grupo CISCLON' por 'Optical Networks', la declaración se lee de forma coherente en el 85% de su contenido, salvo por la rama industrial.
+   - Canvia / G&S Gestión y Sistemas (Empresa integradora nacional de outsourcing TI, nube administrada y transformación digital.) -> FALLA (Sobrevive a la sustitución)
+     Evidencia: Canvia ofrece soporte TI recurrente, ciberseguridad y servicios en la nube para evitar paradas técnicas de clientes empresariales.
+   - TecnoSur Tacna / C&S Computadoras y Servicios (Proveedor local regional de soporte técnico corporativo, redes e infraestructura informática en Tacna.) -> SUPERA (No le calza)
+     Evidencia: Falla la sustitución por la envergadura del holding: TecnoSur no articula automatización industrial ni despliegue de ERP Odoo como integrador único.
+4.2. Prueba de la Decisión     : SUPERADA
+     Sustento: Permite tomar decisiones concretas de exclusión. Si a la empresa se le presenta una licitación para suministrar alimentos o desarrollar videojuegos para móviles, la misión permite rechazarla formalmente de forma inmediata por estar fuera del foco de continuidad operativa de infraestructura crítica, TI corporativa y automatización industrial.
+4.3. Prueba del Reconocimiento : PARCIAL / NO SUPERADA
+     Sustento: Parcialmente superada. Un colaborador o cliente de Tacna reconocería los servicios de soporte TI y Odoo, pero ante una lectura a ciegas sin el nombre, la mayoría podría confundirla con un integrador de soporte TI genérico de Lima si no se resalta la sinergia específica tecnológico-industrial y la presencia regional Tacna-Sur.
+================================================================================
+VEREDICTO FORMAL DE LA MISIÓN: REFORMULAR
+REGLA TEÓRICA APLICADA: La misión sobrevive a la sustitución con competidores directos (Optical Networks y Canvia) y presenta omisión de componentes clave (compromiso ético); la teoría exige su reformulación completa.
+================================================================================
+--------------------------------------------------------------------------------
+5. EVALUACIÓN DE LOS CINCO ATRIBUTOS DE LA VISIÓN
+--------------------------------------------------------------------------------
+• Temporalmente acotada       : CUMPLE
+  Sustento: Cumple. Especifica roadmaps de madurez a '18 meses', aunque le falta fijar el año meta institucional de largo plazo (e.g., 'Al 2028').
+• Verificable                 : NO CUMPLE
+  Sustento: No cumple totalmente. No contiene métricas cuantitativas de cuota de mercado, número de clientes corporativos o porcentaje de cobertura.
+• Ambiciosa pero alcanzable   : CUMPLE
+  Sustento: Cumple. Con 20 años de trayectoria y presencia en Tacna y Lima, expandir y consolidar el soporte híbrido en Tacna-Lima-Puno es plenamente viable.
+• Específica del negocio      : CUMPLE
+  Sustento: Cumple. La convergencia holding de ingeniería industrial (CATESO) con TI avanzada (CISCLOUD) es altamente distintiva en el mercado peruano.
+• Movilizadora                : CUMPLE
+  Sustento: Cumple. Orienta de inmediato las inversiones del área de TI hacia plataformas RMM (Kaseya 365), ERP Odoo y células de soporte presencial en Tacna.
+
+Resumen Visión: 4 de 5 atributos cumplidos.
+VEREDICTO FORMAL DE LA VISIÓN : AJUSTAR Y FORMALIZAR
+REGLA TEÓRICA APLICADA        : Cumple 4 de 5 atributos teóricos; requiere incorporar horizonte de cierre anual explícito (2028) y formalizar métricas cuantitativas.
+--------------------------------------------------------------------------------
+6. MÉTRICAS IMPLÍCITAS EN LA VISIÓN DE LA ORGANIZACIÓN
+--------------------------------------------------------------------------------
+• Métrica     : Horizonte de ejecución de Roadmaps de Transformación Digital
+  Línea Base  : 12 meses promedio de atención por proyectos puntuales no estandarizados
+  Valor Meta  : Ciclos estructurados de 18 meses con hitos trimestrales auditables
+  Fuente      : Portal oficial Soluciones CISCLON Tacna (https://cisclon.com/solutions/consultoria-ti/tacna)
+
+• Métrica     : Disponibilidad garantizada de servicios en la nube y VPS
+  Línea Base  : 99.5 % (estándar básico cPanel/VPS comercial)
+  Valor Meta  : ≥ 99.9 % de uptime con replicación continua de respaldos Datto
+  Fuente      : Catálogo de Cloud y Hosting CISCLOUD (https://ciscloud.net/centro-de-ayuda)
+
+• Métrica     : Tiempo de respuesta a incidencias corporativas en Tacna
+  Línea Base  : 45 minutos atención remota / 4 horas para presencia física
+  Valor Meta  : < 15 minutos en soporte remoto / < 90 minutos para contingencia presencial física en Tacna
+  Fuente      : SLA Corporativo de Soporte IT Tacna CISCLOUD (https://ciscloud.net/soporte-it-tacna)
+
+• Métrica     : Adopción de plataforma integrada ERP Odoo en cartera de clientes
+  Línea Base  : 40 % de clientes corporativos con tickets y facturación en Odoo
+  Valor Meta  : 100 % de clientes bajo modelo MSP gestionados íntegramente en Odoo
+  Fuente      : Mesa de Ayuda y Portal Odoo CISCLON (https://ciscloud.net/soporte-it-tacna)
+
+--------------------------------------------------------------------------------
+7. VERSIÓN PROPUESTA DE LA MISIÓN (SUPERANDO PRUEBAS)
+--------------------------------------------------------------------------------
+«Proveer a medianas y grandes organizaciones industriales y corporativas del Perú soluciones integrales de continuidad operativa y transformación digital, articulando soporte TI gestionado 24/7, infraestructura cloud de alta disponibilidad, ciberseguridad avanzada y automatización industrial bajo un modelo de atención híbrido con arraigo en Tacna y cobertura nacional, garantizando resiliencia tecnológica, visibilidad en tiempo real con ERP Odoo y el estricto cumplimiento de acuerdos de nivel de servicio, bajo principios inquebrantables de confidencialidad, ética e innovación continua.»
+
+Nota: El equipo formula y propone; su adopción es atribución de la alta dirección.
+--------------------------------------------------------------------------------
+8. VISIÓN DE LA FUNCIÓN DE TI DERIVADA (HORIZONTE 2028)
+--------------------------------------------------------------------------------
+Al cierre del horizonte del plan (2028), la función de TI de Grupo CISCLON / CISCLOUD habrá pasado de una administración de soporte asistida por herramientas de monitoreo reactivas a una plataforma centralizada de operaciones inteligentes (AIOps/MSP), ciberseguridad gestionada en tiempo real y orquestación unificada en ERP Odoo, sosteniendo la continuidad operacional ininterrumpida y la consultoría digital en empresas de Tacna y el territorio nacional, con una disponibilidad del 99.95 % en infraestructuras críticas y una tasa de resolución remota en primer contacto superior al 85 %.
+--------------------------------------------------------------------------------
+9. CAPACIDADES DE TI EXIGIDAS (ESTADO ACTUAL -> ESTADO OBJETIVO)
+--------------------------------------------------------------------------------
+• Elemento Visión  : «Consolidarse como el holding tecnológico-industrial que combina ingeniería industrial con TI»
+  Cap. Negocio Req.: Monitoreo convergente de telemetría industrial (OT) y sistemas de información corporativos (IT).
+  Cap. TI Habilitad: Arquitectura de telemetría IoT/OT integrada con agentes de monitoreo central Kaseya 365.
+  Estado Actual    : Monitoreo RMM de endpoints de oficina; telemetría industrial aislada en controladores de planta.
+  Estado Objetivo  : Dashboard unificado IT/OT con correlación de eventos y alertas tempranas en tiempo real.
+
+• Elemento Visión  : «Transformación digital real mediante roadmaps a 18 meses orientados a resultados»
+  Cap. Negocio Req.: Gestión estructurada del ciclo de vida de proyectos y madurez digital de clientes.
+  Cap. TI Habilitad: Módulo de gestión de portafolio y entregables de consultoría dentro de la plataforma ERP Odoo.
+  Estado Actual    : Seguimiento de roadmaps mediante hojas de cálculo y reportes independientes.
+  Estado Objetivo  : Portal corporativo de clientes en Odoo con visualización en línea del avance de su roadmap a 18 meses.
+
+• Elemento Visión  : «Cobertura híbrida nacional con igual velocidad de respuesta en Tacna, Lima y Puno»
+  Cap. Negocio Req.: Despacho automatizado de soporte de contingencia presencial y atención remota 24/7.
+  Cap. TI Habilitad: Sistema de gestión de mesa de ayuda multicanal con geolocalización de técnicos de campo y SLAs.
+  Estado Actual    : Asignación manual de tickets telefónicos y atención coordinada vía WhatsApp.
+  Estado Objetivo  : Mesa de servicio automatizada con despacho georreferenciado en Tacna y Lima con SLA medido en línea.
+
+• Elemento Visión  : «Operación sin interrupciones y resiliencia tecnológica corporativa»
+  Cap. Negocio Req.: Continuidad operativa y recuperación instantánea ante fallas o ransomware.
+  Cap. TI Habilitad: Infraestructura BCDR (Backup & Disaster Recovery) automatizada en la nube con tecnología Datto.
+  Estado Actual    : Respaldos periódicos programados en VPS sin automatización de pruebas de desastre.
+  Estado Objetivo  : Recuperación de desastres como servicio (DRaaS) con RTO < 1 hora y RPO < 15 minutos.
+
+================================================================================
